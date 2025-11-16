@@ -8,6 +8,61 @@ profiles:
 bios:
   - Health economist and with 8 years of experience across a national health technology assessment (HTA) agency and global pharmaceutical companies. Proven ability to lead cross-functional teams and align stakeholders across medical, health economics & outcomes research (HEOR), and commercial functions to drive market access strategy. Skilled in cost-effectiveness analysis (CEA), budget impact modeling, and real-world evidence generation using SAS and R, with a strong track record of informing payer decisions and shaping policy. Recognized with Pfizer’s 2023 Global Best Practice Award for accelerating reimbursement and pricing approvals.
 
+projects:
+  - title: MSQ Ventures
+    role: Healthcare Analyst Intern
+    date: SEPT. 2025 – PRESENT
+    thumbnail: "https://static1.squarespace.com/static/5707117b4c2f85d0ea6156e8/t/5e22892ec77df97290309f82/1579321649048/MSQ-logo-hires-2x1.png"
+    descriptions:
+      - Conducted scientific and market due diligence on 50+ biotech firms, including T cell therapy landscape analysis for Swarm Oncology, to identify cross-border partnership and investment opportunities
+      - Developed 10+ pitch decks and pipeline evaluations supporting in/out-licensing and fundraising projects across the U.S., China, and Europe
+      - Analyzed global biopharma market and capital trends, summarizing insights that informed prospect targeting and client engagement strategies
+    links: {}
+
+  - title: Pfizer
+    role: Market Access Manager
+    date: AUG. 2022 – MAY 2024
+    thumbnail: "https://www.pfizer.com/profiles/pfecpfizercomus_profile/themes/pfecpfizercomus/public/assets/images/logo-blue.svg"
+    descriptions:
+    - Awarded 2023 Global Pfizer Best Practice - Access Acceleration for CIBINQO®
+    - - Led access strategy that achieved reimbursement and pricing approval 6 months ahead of standard timeline, through close collaboration with global HEOR, commercial, medical, and public affairs teams
+      - Secured listing price premiums through cost-effectiveness modeling, demonstrating compelling economic value to the national payer
+    - Led cross-functional and external stakeholder alignment across regulatory, medical, commercial, and advocacy partners, ensuring launch readiness and public awareness for new immunology products and PCV20
+    - Expanded reimbursement scope of atopic dermatitis by crafting value propositions that integrated unmet needs and clinical evidence, successfully negotiating with the national payer to broaden patient access
+    - Developed simulation models to assess financial impact of biosimilar-favoring policies, enabling proactive mitigation strategies to protect branded biologics portfolio positioning
+    links: {}
+
+  - title: Novartis
+    role: Senior Patient Access Specialist
+    date: APR. 2020 – AUG. 2022
+    thumbnail: "https://www.novartis.com/themes/custom/polaris/logo.svg"
+    descriptions:
+    - Developed CEA and pricing models across cardiovascular and respiratory portfolios, including Enerzair® , where the strategy led to a 2% price markup approved by the national payer
+    - Conducted real-world outcomes research using Taiwan’s nationwide claims database (23 million lives) to demonstrate clinical benefits of Entresto® in heart failure care
+    - Organized and led International HTA Workshop (100+ attendees), including Director-General and senior officers from the national payer and HTA agency, to strengthen policy dialogue and payer engagement
+    - Co-authored policy white papers on cardiovascular disease management, enhancing payer education and disease awareness - "Shaping Cardiovascular Disease Access Policy Landscape"
+    links:
+      "Shaping Cardiovascular Disease Access Policy Landscape": "https://www.iqvia.com/locations/asia-pacific/library/white-papers/shaping-cvd-policy-landscape-in-taiwan-english"
+
+  - title: Center for Drug Evaluation
+    role: HTA Researcher in Economic Team
+    date: MAR. 2017 – APR. 2020
+    descriptions:
+    - Conducted 20+ CEAs and budget impact analysis annually and authored HTA reports for new drug reimbursement applications, informing payer decisions and enabling access for 600,000+ patients
+    - Developed Horizon Scanning system to support national payer in proactive budget planning and allocation
+    - Accelerated pneumococcal vaccine policy implementation in high-risk populations by evaluating clinical outcomes and cost-effectiveness, informing national rollout decisions
+    - Facilitated Pharmacoeconomics Workshops for pharmaceutical professionals, delivering theoratical and hands-on training on CEA model development using TreeAge and Excel
+    - Published HEOR studies and presented findings at international conferences (HTAsiaLink, ISPOR Asia), showcasing analytical and effective scientific communication.
+    links: {}
+
+  - title: Kaohsiung Chang Gung Memorial Hospital
+    role: Assistant Researcher
+    date: SEPT. 2016 – MAR. 2017
+    descriptions:
+    - Performed real-world data analysis using SAS on hospital electronic medical records (EMR), including data cleaning, regression modeling, and statistical interpretation
+    - Authored a propensity-score matched cohort study examining renal protection effects of medications hyperuricemia patients, contributing to evidence-based clinical recommendations
+    - Conducted EQ-5D interviews with pediatric CKD patients as part of a quality-of-life study, also leading IRB submission preparations and developing study protocol to ensure ethical and methodological rigor
+    - Participated in the national EQ-5D-5L validation study in Taiwan (Lin et al., 2018), assisting with survey implementation and data quality monitoring across diverse population groups
+    links: {}
 publications: []
 
-projects: []

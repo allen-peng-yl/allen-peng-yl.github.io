@@ -47,6 +47,36 @@ onMounted(() => {
 
     <hr>
 
+    <div id="projects">
+      <h2>Working Experience</h2>
+      <div class="project" v-for="project in data.projects">
+        <h3>
+          <div>{{ project.title }}</div>
+          <div class="subtitle">
+            <div>{{ project.role }}</div>
+            <div>{{ project.date }}</div>
+          </div>
+        </h3>
+        <img :src="project.thumbnail ? project.thumbnail : defaultThumbnail" loading="lazy">
+        <div class="contents">
+          <ul>
+            <li v-for="description in project.descriptions">
+              <ul v-if="Array.isArray(description)">
+                <li v-for="sub in description">
+                {{ sub }}
+                </li>
+              </ul>
+              <template v-else>{{ description }}</template>
+            </li>
+          </ul>
+          <div class="link" v-for="[linkName, link] in Object.entries(project.links)">
+            [<a :href="link" target="_blank">{{ linkName }}</a>]
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+
     <div id="pubs">
       <h2>Selected Publications</h2>
       <div class="project" v-for="pub in data.publications">
@@ -63,25 +93,6 @@ onMounted(() => {
             [<a :href="link" target="_blank">{{ linkName }}</a>]
           </div>
           <p v-if="pub.show_abstract">{{ pub.abstract }}</p>
-        </div>
-        <hr>
-      </div>
-    </div>
-
-    <hr>
-
-    <div id="projects">
-      <h2>Selected Projects</h2>
-      <div class="project" v-for="project in data.projects">
-        <h3>{{ project.title }}</h3>
-        <!-- <img :src="project.thumbnail ? project.thumbnail : defaultThumbnail" alt="project thumbnail" loading="lazy"> -->
-        <div class="contents">
-          <ul>
-            <li v-for="description in project.descriptions">{{ description }}</li>
-          </ul>
-          <div class="link" v-for="[linkName, link] in Object.entries(project.links)">
-            [<a :href="link" target="_blank">{{ linkName }}</a>]
-          </div>
         </div>
         <hr>
       </div>
@@ -187,6 +198,13 @@ img#profile-pic {
 }
 }
 */
+
+div#projects h3 .subtitle {
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 12pt;
+},
 
 div#projects div.link,
 div#pubs div.link {
