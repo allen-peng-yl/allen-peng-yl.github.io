@@ -92,7 +92,7 @@ onMounted(() => {
           <div class="link" v-for="[linkName, link] in Object.entries(pub.links)">
             [<a :href="link" target="_blank">{{ linkName }}</a>]
           </div>
-          <p v-if="pub.show_abstract">{{ pub.abstract }}</p>
+          <p v-if="pub.show_abstract" v-html="pub.abstract"></p>
         </div>
         <hr>
       </div>
@@ -204,7 +204,7 @@ div#projects h3 .subtitle {
   justify-content: space-between;
   font-weight: normal;
   font-size: 12pt;
-},
+}
 
 div#projects div.link,
 div#pubs div.link {
@@ -214,7 +214,7 @@ div#pubs div.link {
 
 div#projects img,
 div#pubs img {
-  width: 200px;
+  width: 100px;
 }
 
 div#projects .contents,

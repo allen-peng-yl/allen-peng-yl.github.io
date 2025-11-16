@@ -64,5 +64,76 @@ projects:
     - Conducted EQ-5D interviews with pediatric CKD patients as part of a quality-of-life study, also leading IRB submission preparations and developing study protocol to ensure ethical and methodological rigor
     - Participated in the national EQ-5D-5L validation study in Taiwan (Lin et al., 2018), assisting with survey implementation and data quality monitoring across diverse population groups
     links: {}
-publications: []
+publications:
+  - title: 'Comparison of uric acid reduction and renal outcomes of febuxostat vs allopurinol in patients with CKD'
+    show_abstract: false
+    abstract: |
+      <p>
+      <b>Objectives:</b> Changes in treatment choice of therapy and size of treated population that can lead to under- or overestimate of payer's budget are less likely to be reassured after reimbursement adoption of a new drug. The aim of this study was to evaluate the effects of febuxostat introduction and the modifications in its insurance coverage on the utilization and expenditure of urate-lowering therapy (ULT).
+      </p>
 
+      <p>
+      <b>Methods:</b> Electronic medical records for adults patients prescribed any ULT during 2010-2015 was derived from the largest medical organization in Taiwan. Aggregated estimates of ULT use and costs were assessed per 3-month and per patient per month (PPPM). Factors associated with total ULT expenditure were assessed using a time series design with factored Autoregressive Integrated Moving Average (ARIMA) models.
+      </p>
+
+      <p>
+      <b>Methods:</b> Electronic medical records for adults patients prescribed any ULT during 2010-2015 was derived from the largest medical organization in Taiwan. Aggregated estimates of ULT use and costs were assessed per 3-month and per patient per month (PPPM). Factors associated with total ULT expenditure were assessed using a time series design with factored Autoregressive Integrated Moving Average (ARIMA) models.
+      </p>
+
+      <p>
+      <b>Results:</b> ULT prevalent users increased 34.1% from 2010 to 2015 and a 123% increase in total ULT expenditure. Numbers on allopurinol and sulfinpyrazone both declined 31%, and on benzbromarone and febuxostat gradually increased to 38.21% and 22.89% of all users in 2015. Insurance payments PPPM ($4.44 to $9.22) and total monthly ULT cost ($32,946 to $ 85,732) growth more than doubled in 6 years, trend changes generated mostly by individuals switching to febuxostat.
+      </p>
+
+      <p>
+      <b>Conclusions:</b> ULT use moved to favor benzbromarone and febuxostat; greater expensive uptake for febuxostat led to a rapid rise in ULT cost. Marginal values of increasing access to febuxostat for asymptomatic hyperuricemia should be focus on future studies to facilitate drug prices negotiation and ensure appropriate ULT use.
+      </p>
+    authors: '<a>Yueh-Lung Peng</a>, You-Lin Tain, Chien-Te Lee, Yi-Hsn Yang, Yaw-Bin Huang, Yen-Hsia Wen, Chien-Ning Hsu'
+    venue: Sci Rep. 2020 Jul 1;10(1):10734
+    links:
+      'Full Text': 'https://pubmed.ncbi.nlm.nih.gov/32612180/'
+
+  - title: 'The impact of adoption of a new urate-lowering agent on trends in utilization and cost in practice'
+    show_abstract: false
+    abstract: |
+      <p>
+      <b>Objectives:</b> Changes in treatment choice of therapy and size of treated population that can lead to under- or overestimate of payer's budget are less likely to be reassured after reimbursement adoption of a new drug. The aim of this study was to evaluate the effects of febuxostat introduction and the modifications in its insurance coverage on the utilization and expenditure of urate-lowering therapy (ULT).
+      </p>
+
+      <p>
+      <b>Methods:</b> Electronic medical records for adults patients prescribed any ULT during 2010-2015 was derived from the largest medical organization in Taiwan. Aggregated estimates of ULT use and costs were assessed per 3-month and per patient per month (PPPM). Factors associated with total ULT expenditure were assessed using a time series design with factored Autoregressive Integrated Moving Average (ARIMA) models.
+      </p>
+
+      <p>
+      <b>Results:</b> ULT prevalent users increased 34.1% from 2010 to 2015 and a 123% increase in total ULT expenditure. Numbers on allopurinol and sulfinpyrazone both declined 31%, and on benzbromarone and febuxostat gradually increased to 38.21% and 22.89% of all users in 2015. Insurance payments PPPM ($4.44 to $9.22) and total monthly ULT cost ($32,946 to $ 85,732) growth more than doubled in 6 years, trend changes generated mostly by individuals switching to febuxostat.
+      </p>
+
+      <p>
+      <b>Conclusions:</b> ULT use moved to favor benzbromarone and febuxostat; greater expensive uptake for febuxostat led to a rapid rise in ULT cost. Marginal values of increasing access to febuxostat for asymptomatic hyperuricemia should be focus on future studies to facilitate drug prices negotiation and ensure appropriate ULT use.
+      </p>
+    authors: '<a>Yueh-Lung Peng</a>, Chien-Te Lee, You-Lin Tain, Yaw-Bin Huang, Hung-Yi Chuang , Yen-Hsia Wen, Shiou-Huei Huang, Chun-Yu Tsai, Chien-Ning Hsu'
+    venue: PLoS One. 2019 Aug 26;14(8):e0221504
+    links:
+      'Full Text': 'https://pubmed.ncbi.nlm.nih.gov/31449565/'
+
+  - title: 'Cost-utility analysis of second-line anti-diabetic therapy in patients with type 2 diabetes mellitus inadequately controlled on metformin'
+    show_abstract: false
+    abstract: |
+      <p>
+      <b>Background:</b> There are significant differences in costs and effectiveness among the second-line treatment options for type 2 diabetes (T2DM). We aimed to evaluate the cost-effectiveness of the second-line anti-diabetic therapy in T2DM patients inadequately controlled on metformin (MET) in Taiwan from the perspective of the National Health Insurance (NHI).
+      </p>
+
+      <p>
+      <b>Methods:</b> The Cardiff T2DM model was used to predict the occurrence of mortality, diabetes-related complications, and drug adverse events. Five second-line treatments were selected for the analysis: sodium-glucose cotransporter 2 inhibitors (SGLT-2-i), glucagon-like peptide-1 receptor agonists (GLP-1-RA), dipeptidyl peptidase-4 inhibitor (DPP-4-i), sulfonylurea (SU), and insulin (INS). Treatment efficacy data were obtained from meta-analyses and randomized clinical trials, whereas cost data were derived from the NHI databases.
+      </p>
+
+      <p>
+      <b>Results:</b> The analysis found that SU + MET (DPP-4-i as triple therapy) had the lowest cost, and SU + MET (SGLT-2-i as triple therapy) was associated with a mean incremental benefit of 0.47 quality-adjusted life years (QALYs) at an incremental cost of NT$2769, resulting in an incremental cost-effectiveness ratio (ICER) of NT$5840/QALY. Compared to their next less costly strategies, SGLT-2-i + MET (SU as triple therapy) and SGLT-2-i + MET (DPP-4-i as triple therapy) had ICER values of NT$63,170/QALY and NT$64,090/QALY, respectively. These results were fairly robust to extensive sensitivity analyses, but were relatively sensitive to baseline HbA1c, HbA1c threshold, and utilities.
+      </p>
+
+      <p>
+      <b>Conclusion:</b> The addition of either SU or SGLT-2-i to MET was found to be cost-effective, using the 2019 forecast for GDP per capita of Taiwan (NT$770,770) as the willingness to pay (WTP) threshold.
+      </p>
+    authors: 'Ching-Lun Chien, Yen-Chou Chen, Daniel C Malone, <a>Yueh-Lung Peng</a>, Yu Ko'
+    venue: Curr Med Res Opin. 2020 Oct;36(10):1619-1626
+    links:
+      'Full Text': 'https://pubmed.ncbi.nlm.nih.gov/32851879/'
