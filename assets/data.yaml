@@ -65,6 +65,42 @@ projects:
     - Conducted EQ-5D interviews with pediatric CKD patients as part of a quality-of-life study, also leading IRB submission preparations and developing study protocol to ensure ethical and methodological rigor
     - Participated in the national EQ-5D-5L validation study in Taiwan (Lin et al., 2018), assisting with survey implementation and data quality monitoring across diverse population groups
     links: {}
+
+education:
+  - degree: Master of Public Health
+    institution: Johns Hopkins Bloomberg School of Public Health
+    date: JULY 2024 – MAY 2025
+    descriptions:
+      - "Concentration: Health Systems and Policy | Certificate: Public Health Economics"
+      - "Selected Coursework & Training:
+        <ul>
+        <li>
+        Pharmacoepidemiology: RCTs, Observational Studies, Meta-analysis, Systematic Review
+        </li>
+        <li>
+        Biostatistics & Tools: R, SAS, SPSS
+        </li>
+        <li>
+        Policy & Systems: U.S. Healthcare System, Health Policy, Epidemiology of Infectious Disease, Health Advocacy
+        </li>
+        </ul>"
+      - 'Research Project: "Specialty Drugs Cost, Utilization and Policy Evaluation"'
+      - 'Capstone Field Project (Lao PDR): "Private Pharmacies as First Points of Healthcare Access: Participatory Action Research for Good Pharmacy Practice Implementation in the Lao PDR"'
+      - 'Practicum (Baltimore, MD): "Healthcare for the Homeless" - Designed questionnaires, conducted interviews and co-developed practical solutions to streamline referral pathways'
+      - "Leadership: Secretary of the Anna Baetjer Society for Public Health Practice"
+
+  - degree: Master of Science in Clinical Pharmacy
+    institution: Kaohsiung Medical University
+    date: SEPT. 2014 – JUNE 2016
+    descriptions:
+      - 'Thesis: "The effect of febuxostat and other urate-lowering agents on uric acid management and renal outcome in patients with chronic kidney disease"'
+
+  - degree: Bachelor of Science in Pharmacy
+    institution: Kaohsiung Medical University
+    date: SEPT. 2010 – JUNE 2014
+    descriptions:
+      - Licensed Pharmacist, Taiwan Ministry of Health and Welfare (July 2014)
+
 publications:
   - title: 'Comparison of uric acid reduction and renal outcomes of febuxostat vs allopurinol in patients with CKD'
     show_abstract: false

@@ -77,6 +77,25 @@ onMounted(() => {
       </div>
     </div>
 
+    <div id="education">
+      <h2>Education</h2>
+      <div class="project" v-for="edu in data.education">
+        <h3>
+          <div>{{ edu.degree }}</div>
+          <div class="subtitle">
+            <div>{{ edu.institution }}</div>
+            <div>{{ edu.date }}</div>
+          </div>
+        </h3>
+        <div class="contents">
+          <ul>
+            <li v-for="description in edu.descriptions" v-html="description"> </li>
+          </ul>
+        </div>
+        <hr>
+      </div>
+    </div>
+
     <div id="pubs">
       <h2>Selected Publications</h2>
       <div class="project" v-for="pub in data.publications">
@@ -199,7 +218,8 @@ img#profile-pic {
 }
 */
 
-div#projects h3 .subtitle {
+div#projects h3 .subtitle,
+div#education h3 .subtitle {
   display: flex;
   justify-content: space-between;
   font-weight: normal;
@@ -218,11 +238,17 @@ div#pubs img {
 }
 
 div#projects .contents,
+div#education .contents,
 div#pubs .contents {
   vertical-align: top;
   margin-left: 20px;
   display: inline-block;
   max-width: calc(100% - 220px);
+}
+
+div#education .contents {
+  margin-left: 0;
+  max-width: 100%;
 }
 
 @media (max-width: 800px) {
@@ -233,6 +259,7 @@ div#pubs .contents {
   }
 
   div#projects .contents,
+  div#education .contents,
   div#pubs .contents {
     vertical-align: initial;
     margin-left: initial;
