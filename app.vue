@@ -62,12 +62,13 @@ onMounted(() => {
         <div class="contents">
           <ul>
             <li v-for="description in project.descriptions">
-              <ul v-if="Array.isArray(description)">
-                <li v-for="sub in description">
-                {{ sub }}
-                </li>
-              </ul>
-              <template v-else>{{ description }}</template>
+              <template v-if="description.text">
+                <span v-html="description.text"></span>
+                <ul>
+                  <li v-for="sub in description.sub" v-html="sub"></li>
+                </ul>
+              </template>
+              <span v-else v-html="description"></span>
             </li>
           </ul>
           <div class="link" v-for="[linkName, link] in Object.entries(project.links)">
@@ -88,6 +89,7 @@ onMounted(() => {
             <div>{{ edu.date }}</div>
           </div>
         </h3>
+        <div class="logo"><img v-if="edu.thumbnail" :src="edu.thumbnail" :alt="edu.institution + ' logo'" loading="lazy"></div>
         <div class="contents">
           <ul>
             <li v-for="description in edu.descriptions" v-html="description"> </li>
@@ -113,27 +115,23 @@ onMounted(() => {
 
     <div id="pubs">
       <h2>Selected Publications</h2>
-      <div class="project" v-for="pub in data.publications">
-        <h3>{{ pub.title }}</h3>
-        <div class="contents">
-          <div v-html="pub.authors"></div>
-          <h4>{{ pub.venue }}</h4>
-          <div class="link" v-for="[linkName, link] in Object.entries(pub.links)">
+      <div class="entry" v-for="pub in data.publications">
+        <div class="entry-title">{{ pub.title }}</div>
+        <div v-html="pub.authors"></div>
+        <div>
+          <span class="venue">{{ pub.venue }}</span>
+          <span class="link" v-for="[linkName, link] in Object.entries(pub.links)">
             [<a :href="link" target="_blank">{{ linkName }}</a>]
-          </div>
+          </span>
         </div>
-        <hr>
       </div>
     </div>
 
     <div id="presentations">
       <h2>Conference Presentations</h2>
-      <div class="project" v-for="pres in data.presentations">
-        <h3>{{ pres.title }}</h3>
-        <div class="contents">
-          <h4>{{ pres.venue }} ({{ pres.type }})</h4>
-        </div>
-        <hr>
+      <div class="entry" v-for="pres in data.presentations">
+        <div class="entry-title">{{ pres.title }}</div>
+        <div><span class="venue">{{ pres.venue }}</span> ({{ pres.type }})</div>
       </div>
     </div>
 
@@ -259,44 +257,59 @@ div#pubs div.link {
   margin-right: 5px;
 }
 
-div#projects .logo {
+div#projects .logo,
+div#education .logo {
   display: inline-block;
   vertical-align: top;
-  width: 60px;
+  width: 80px;
 }
 
-div#projects .logo img {
-  width: 60px;
-  max-height: 60px;
+div#projects .logo img,
+div#education .logo img {
+  width: 80px;
+  max-height: 80px;
   object-fit: contain;
   mix-blend-mode: multiply;
 }
 
 div#projects .contents,
-div#education .contents,
-div#pubs .contents,
-div#presentations .contents {
+div#education .contents {
   vertical-align: top;
   margin-left: 20px;
   display: inline-block;
-  max-width: calc(100% - 100px);
+  max-width: calc(100% - 120px);
 }
 
-div#education .contents {
-  margin-left: 0;
-  max-width: 100%;
+div#projects .contents ul,
+div#education .contents ul {
+  margin-top: 0;
+}
+
+.entry {
+  padding: 12px 0;
+  border-bottom: 2px solid #D5D0C0;
+  line-height: 1.5;
+}
+
+.entry .entry-title {
+  font-weight: 700;
+  font-size: 13pt;
+}
+
+.entry .venue {
+  font-style: italic;
+  margin-right: 6px;
 }
 
 @media (max-width: 800px) {
 
-  div#projects .logo {
+  div#projects .logo,
+  div#education .logo {
     display: none;
   }
 
   div#projects .contents,
-  div#education .contents,
-  div#pubs .contents,
-  div#presentations .contents {
+  div#education .contents {
     vertical-align: initial;
     margin-left: initial;
     display: initial;

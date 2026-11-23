@@ -35,8 +35,9 @@ projects:
     date: AUG. 2022 – MAY 2024
     thumbnail: "https://www.pfizer.com/profiles/pfecpfizercomus_profile/themes/pfecpfizercomus/public/assets/images/logo-blue.svg"
     descriptions:
-    - Awarded 2023 Global Pfizer Best Practice - Access Acceleration for CIBINQO®
-    - - Led access strategy that achieved reimbursement and pricing approval 6 months ahead of standard timeline, through close collaboration with global HEOR, commercial, medical, and public affairs teams
+    - text: Awarded 2023 Global Pfizer Best Practice - Access Acceleration for CIBINQO®
+      sub:
+      - Led access strategy that achieved reimbursement and pricing approval 6 months ahead of standard timeline, through close collaboration with global HEOR, commercial, medical, and public affairs teams
       - Secured listing price premiums through cost-effectiveness modeling, demonstrating compelling economic value to the national payer
     - Led cross-functional and external stakeholder alignment across regulatory, medical, commercial, and advocacy partners, ensuring launch readiness and public awareness for new immunology products and PCV20
     - Expanded reimbursement scope of atopic dermatitis by crafting value propositions that integrated unmet needs and clinical evidence, successfully negotiating with the national payer to broaden patient access
@@ -51,9 +52,8 @@ projects:
     - Developed CEA and pricing models across cardiovascular and respiratory portfolios, including Enerzair® , where the strategy led to a 2% price markup approved by the national payer
     - Conducted real-world outcomes research using Taiwan’s nationwide claims database (23 million lives) to demonstrate clinical benefits of Entresto® in heart failure care
     - Organized and led International HTA Workshop (100+ attendees), including Director-General and senior officers from the national payer and HTA agency, to strengthen policy dialogue and payer engagement
-    - Co-authored policy white papers on cardiovascular disease management, enhancing payer education and disease awareness - "Shaping Cardiovascular Disease Access Policy Landscape"
-    links:
-      "Shaping Cardiovascular Disease Access Policy Landscape": "https://www.iqvia.com/locations/asia-pacific/library/white-papers/shaping-cvd-policy-landscape-in-taiwan-english"
+    - Co-authored policy white papers on cardiovascular disease management, enhancing payer education and disease awareness - "<a href='https://www.iqvia.com/locations/asia-pacific/library/white-papers/shaping-cvd-policy-landscape-in-taiwan-english' target='_blank'>Shaping Cardiovascular Disease Access Policy Landscape</a>"
+    links: {}
 
   - title: Center for Drug Evaluation
     role: HTA Researcher in Economic Team
@@ -80,6 +80,7 @@ projects:
 education:
   - degree: Doctor of Philosophy
     institution: University of Maryland, Baltimore
+    thumbnail: "/images/logos/umb.png"
     date: AUG. 2026 – PRESENT
     descriptions:
       - "Program: Pharmaceutical Health Services Research (PHSR)"
@@ -87,6 +88,7 @@ education:
 
   - degree: Master of Public Health
     institution: Johns Hopkins Bloomberg School of Public Health
+    thumbnail: "/images/logos/jhu.png"
     date: JULY 2024 – MAY 2025
     descriptions:
       - "Concentration: Health Systems and Policy | Certificate: Public Health Economics"
@@ -128,7 +130,7 @@ leadership:
 
 publications:
   - title: 'Machine learning-based prediction of a high-risk kidney function trajectory class after acute kidney injury'
-    authors: 'CL Liu, YL Tain, CC Lin, <a>YL Peng</a>, CN Hsu'
+    authors: 'Chien-Liang Liu, You-Lin Tain, Chih-Chien Lin, <a>Yueh-Lung Peng</a>, Chien-Ning Hsu'
     venue: BMJ Health Care Inform. 2026;33(1):e101578
     links:
       'Full Text': 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13218091/'
