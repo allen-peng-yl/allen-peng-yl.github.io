@@ -1,4 +1,5 @@
 name: Allen Peng
+title: PhD Student, Pharmaceutical Health Services Research, University of Maryland, Baltimore
 profiles:
   - BSc (Pharm), MSc (Clin Pharm), MPH
   - 'Email: <a href="mailto:allen.peng08@gmail.com">allen.peng08@gmail.com</a>'
@@ -7,12 +8,21 @@ profiles:
     <a href="https://www.linkedin.com/in/allen-peng-yl/" target="_blank">LinkedIn</a> /
     <a href="/resume.pdf" target="_blank">Résumé</a>'
 bios:
-  - Health economist and with 8 years of experience across a national health technology assessment (HTA) agency and global pharmaceutical companies. Proven ability to lead cross-functional teams and align stakeholders across medical, health economics & outcomes research (HEOR), and commercial functions to drive market access strategy. Skilled in cost-effectiveness analysis (CEA), budget impact modeling, and real-world evidence generation using SAS and R, with a strong track record of informing payer decisions and shaping policy. Recognized with Pfizer’s 2023 Global Best Practice Award for accelerating reimbursement and pricing approvals.
+  - PhD student in Pharmaceutical Health Services Research at the University of Maryland, Baltimore, and health economist with 8 years of experience across a national health technology assessment (HTA) agency and global pharmaceutical companies (Pfizer, Novartis). Skilled in cost-effectiveness analysis (CEA), budget impact modeling, and real-world evidence generation using SAS, R, Excel, and TreeAge, with a strong track record of rigorous model development and critical appraisal supporting HTA submissions and payer decisions. Recognized with Pfizer’s 2023 Global Best Practice Award for accelerating reimbursement and pricing approvals.
 
 projects:
+  - title: AcademyHealth
+    role: Research Intern
+    date: APR. 2026 – JUL. 2026
+    thumbnail: "/images/logos/academyhealth.jpg"
+    descriptions:
+      - Developed a 4-module research impact assessment training course for health services researchers by synthesizing 6+ academic frameworks into a structured curriculum with a unified Impact Metrics Spreadsheet and case study walkthroughs
+      - Conducted strategic market research to support a new program initiative, evaluating 30+ potential funding partners and 10+ existing programs to identify positioning opportunities and key gaps in the evidence-literacy training landscape
+    links: {}
+
   - title: MSQ Ventures
     role: Healthcare Analyst Intern
-    date: SEPT. 2025 – PRESENT
+    date: SEPT. 2025 – JUL. 2026
     thumbnail: "https://static1.squarespace.com/static/5707117b4c2f85d0ea6156e8/t/5e22892ec77df97290309f82/1579321649048/MSQ-logo-hires-2x1.png"
     descriptions:
       - Conducted scientific and market due diligence on 50+ biotech firms, including T cell therapy landscape analysis for Swarm Oncology, to identify cross-border partnership and investment opportunities
@@ -49,11 +59,12 @@ projects:
     role: HTA Researcher in Economic Team
     date: MAR. 2017 – APR. 2020
     descriptions:
-    - Conducted 20+ CEAs and budget impact analysis annually and authored HTA reports for new drug reimbursement applications, informing payer decisions and enabling access for 600,000+ patients
+    - Conducted 20+ CEAs and budget impact analyses annually and authored HTA reports for new drug reimbursement applications, informing payer decisions and enabling access for 600,000+ patients
+    - Critically appraised manufacturer-submitted cost-effectiveness and budget impact models, verifying model structure, input sources, assumptions, and calculations to identify errors and ensure submission quality
     - Developed Horizon Scanning system to support national payer in proactive budget planning and allocation
     - Accelerated pneumococcal vaccine policy implementation in high-risk populations by evaluating clinical outcomes and cost-effectiveness, informing national rollout decisions
-    - Facilitated Pharmacoeconomics Workshops for pharmaceutical professionals, delivering theoratical and hands-on training on CEA model development using TreeAge and Excel
-    - Published HEOR studies and presented findings at international conferences (HTAsiaLink, ISPOR Asia), showcasing analytical and effective scientific communication.
+    - Facilitated Pharmacoeconomics Workshops for pharmaceutical professionals, delivering theoretical and hands-on training on CEA model development using TreeAge and Excel
+    - Published HEOR studies and presented findings at international conferences (HTAsiaLink, ISPOR Asia), showcasing analytical rigor and scientific communication.
     links: {}
 
   - title: Kaohsiung Chang Gung Memorial Hospital
@@ -61,12 +72,19 @@ projects:
     date: SEPT. 2016 – MAR. 2017
     descriptions:
     - Performed real-world data analysis using SAS on hospital electronic medical records (EMR), including data cleaning, regression modeling, and statistical interpretation
-    - Authored a propensity-score matched cohort study examining renal protection effects of medications hyperuricemia patients, contributing to evidence-based clinical recommendations
+    - Authored a propensity-score matched cohort study examining renal protection effects of medications in hyperuricemia patients, contributing to evidence-based clinical recommendations
     - Conducted EQ-5D interviews with pediatric CKD patients as part of a quality-of-life study, also leading IRB submission preparations and developing study protocol to ensure ethical and methodological rigor
     - Participated in the national EQ-5D-5L validation study in Taiwan (Lin et al., 2018), assisting with survey implementation and data quality monitoring across diverse population groups
     links: {}
 
 education:
+  - degree: Doctor of Philosophy
+    institution: University of Maryland, Baltimore
+    date: AUG. 2026 – PRESENT
+    descriptions:
+      - "Program: Pharmaceutical Health Services Research (PHSR)"
+      - "Research Interests: Pharmacoeconomics, Pharmacoepidemiology, Health Policy"
+
   - degree: Master of Public Health
     institution: Johns Hopkins Bloomberg School of Public Health
     date: JULY 2024 – MAY 2025
@@ -87,7 +105,6 @@ education:
       - 'Research Project: "Specialty Drugs Cost, Utilization and Policy Evaluation"'
       - 'Capstone Field Project (Lao PDR): "Private Pharmacies as First Points of Healthcare Access: Participatory Action Research for Good Pharmacy Practice Implementation in the Lao PDR"'
       - 'Practicum (Baltimore, MD): "Healthcare for the Homeless" - Designed questionnaires, conducted interviews and co-developed practical solutions to streamline referral pathways'
-      - "Leadership: Secretary of the Anna Baetjer Society for Public Health Practice"
 
   - degree: Master of Science in Clinical Pharmacy
     institution: Kaohsiung Medical University
@@ -101,29 +118,24 @@ education:
     descriptions:
       - Licensed Pharmacist, Taiwan Ministry of Health and Welfare (July 2014)
 
+leadership:
+  - title: ISPOR UMB Student Chapter
+    role: Alumni & PR Chair
+    date: 2026 – PRESENT
+  - title: Anna Baetjer Society for Public Health Practice, Johns Hopkins Bloomberg School of Public Health
+    role: Secretary
+    date: 2024 – 2025
+
 publications:
+  - title: 'Machine learning-based prediction of a high-risk kidney function trajectory class after acute kidney injury'
+    show_abstract: false
+    authors: 'CL Liu, YL Tain, CC Lin, <a>YL Peng</a>, CN Hsu'
+    venue: BMJ Health Care Inform. 2026;33(1):e101578
+    links:
+      'Full Text': 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13218091/'
+
   - title: 'Comparison of uric acid reduction and renal outcomes of febuxostat vs allopurinol in patients with CKD'
     show_abstract: false
-    abstract: |
-      <p>
-      <b>Objectives:</b> Changes in treatment choice of therapy and size of treated population that can lead to under- or overestimate of payer's budget are less likely to be reassured after reimbursement adoption of a new drug. The aim of this study was to evaluate the effects of febuxostat introduction and the modifications in its insurance coverage on the utilization and expenditure of urate-lowering therapy (ULT).
-      </p>
-
-      <p>
-      <b>Methods:</b> Electronic medical records for adults patients prescribed any ULT during 2010-2015 was derived from the largest medical organization in Taiwan. Aggregated estimates of ULT use and costs were assessed per 3-month and per patient per month (PPPM). Factors associated with total ULT expenditure were assessed using a time series design with factored Autoregressive Integrated Moving Average (ARIMA) models.
-      </p>
-
-      <p>
-      <b>Methods:</b> Electronic medical records for adults patients prescribed any ULT during 2010-2015 was derived from the largest medical organization in Taiwan. Aggregated estimates of ULT use and costs were assessed per 3-month and per patient per month (PPPM). Factors associated with total ULT expenditure were assessed using a time series design with factored Autoregressive Integrated Moving Average (ARIMA) models.
-      </p>
-
-      <p>
-      <b>Results:</b> ULT prevalent users increased 34.1% from 2010 to 2015 and a 123% increase in total ULT expenditure. Numbers on allopurinol and sulfinpyrazone both declined 31%, and on benzbromarone and febuxostat gradually increased to 38.21% and 22.89% of all users in 2015. Insurance payments PPPM ($4.44 to $9.22) and total monthly ULT cost ($32,946 to $ 85,732) growth more than doubled in 6 years, trend changes generated mostly by individuals switching to febuxostat.
-      </p>
-
-      <p>
-      <b>Conclusions:</b> ULT use moved to favor benzbromarone and febuxostat; greater expensive uptake for febuxostat led to a rapid rise in ULT cost. Marginal values of increasing access to febuxostat for asymptomatic hyperuricemia should be focus on future studies to facilitate drug prices negotiation and ensure appropriate ULT use.
-      </p>
     authors: '<a>Yueh-Lung Peng</a>, You-Lin Tain, Chien-Te Lee, Yi-Hsn Yang, Yaw-Bin Huang, Yen-Hsia Wen, Chien-Ning Hsu'
     venue: Sci Rep. 2020 Jul 1;10(1):10734
     links:
@@ -174,3 +186,14 @@ publications:
     venue: Curr Med Res Opin. 2020 Oct;36(10):1619-1626
     links:
       'Full Text': 'https://pubmed.ncbi.nlm.nih.gov/32851879/'
+
+presentations:
+  - title: Cost-Utility Analysis of Transcatheter Aortic Valve Implantation (TAVI) in Aortic Stenosis Patients in Taiwan
+    venue: 2019 8th HTAsiaLink Annual Conference, Apr. 22–28, 2019, Korea
+    type: Oral Presentation
+  - title: Impact of Adoption of a New Drug on the Trends in Utilization Patterns Changes and Pharmaceutical Expenditure – An Example of Urate-Lowering Therapy
+    venue: 2016 ISPOR 7th Asia-Pacific Conference, Sept. 3–5, 2016, Singapore
+    type: Podium Presentation
+  - title: 'A Meta-analysis & Systematic Review: The Effectiveness of Urate-lowering and Renoprotection between Febuxostat and Allopurinol among Hyperuricemia Patients with Chronic Kidney Disease'
+    venue: 2015 13th Taiwan Society of Health-System Pharmacists (TSHP), Nov. 8, 2015, Taiwan
+    type: Poster Presentation
