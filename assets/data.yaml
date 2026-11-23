@@ -129,12 +129,6 @@ leadership:
     date: 2024 – 2025
 
 publications:
-  - title: 'Machine learning-based prediction of a high-risk kidney function trajectory class after acute kidney injury'
-    authors: 'Chien-Liang Liu, You-Lin Tain, Chih-Chien Lin, <a>Yueh-Lung Peng</a>, Chien-Ning Hsu'
-    venue: BMJ Health Care Inform. 2026;33(1):e101578
-    links:
-      'Full Text': 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13218091/'
-
   - title: 'Comparison of uric acid reduction and renal outcomes of febuxostat vs allopurinol in patients with CKD'
     authors: '<a>Yueh-Lung Peng</a>, You-Lin Tain, Chien-Te Lee, Yi-Hsn Yang, Yaw-Bin Huang, Yen-Hsia Wen, Chien-Ning Hsu'
     venue: Sci Rep. 2020 Jul 1;10(1):10734
@@ -152,6 +146,12 @@ publications:
     venue: Curr Med Res Opin. 2020 Oct;36(10):1619-1626
     links:
       'Full Text': 'https://pubmed.ncbi.nlm.nih.gov/32851879/'
+
+  - title: 'Machine learning-based prediction of a high-risk kidney function trajectory class after acute kidney injury'
+    authors: 'Chien-Liang Liu, You-Lin Tain, Chih-Chien Lin, <a>Yueh-Lung Peng</a>, Chien-Ning Hsu'
+    venue: BMJ Health Care Inform. 2026;33(1):e101578
+    links:
+      'Full Text': 'https://pmc.ncbi.nlm.nih.gov/articles/PMC13218091/'
 
 presentations:
   - title: Cost-Utility Analysis of Transcatheter Aortic Valve Implantation (TAVI) in Aortic Stenosis Patients in Taiwan
