@@ -118,15 +118,9 @@ onMounted(() => {
         <div class="contents">
           <div v-html="pub.authors"></div>
           <h4>{{ pub.venue }}</h4>
-          <div class="link" v-if="pub.abstract">
-            [<a @click="pub.show_abstract = !pub.show_abstract">
-              {{ pub.show_abstract ? 'Hide' : 'Show' }} abstract
-            </a>]
-          </div>
           <div class="link" v-for="[linkName, link] in Object.entries(pub.links)">
             [<a :href="link" target="_blank">{{ linkName }}</a>]
           </div>
-          <p v-if="pub.show_abstract" v-html="pub.abstract"></p>
         </div>
         <hr>
       </div>
