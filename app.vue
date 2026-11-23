@@ -41,6 +41,7 @@ onMounted(() => {
     <img src="/images/profile.jpg" alt="profile pic" id="profile-pic">
     <div id="profile">
       <div class="myname">{{ data.name }}</div>
+      <div class="mytitle" v-if="data.title">{{ data.title }}</div>
       <div v-for="profile in data.profiles"><span v-html="profile"></span></div>
     </div>
     <p v-for="bio in data.bios"><span v-html="bio"></span></p>
@@ -57,7 +58,7 @@ onMounted(() => {
             <div>{{ project.date }}</div>
           </div>
         </h3>
-        <img :src="project.thumbnail ? project.thumbnail : defaultThumbnail" loading="lazy">
+        <div class="logo"><img v-if="project.thumbnail" :src="project.thumbnail" :alt="project.title + ' logo'" loading="lazy"></div>
         <div class="contents">
           <ul>
             <li v-for="description in project.descriptions">
@@ -96,6 +97,20 @@ onMounted(() => {
       </div>
     </div>
 
+    <div id="leadership">
+      <h2>Leadership &amp; Service</h2>
+      <div class="project" v-for="item in data.leadership">
+        <h3>
+          <div>{{ item.title }}</div>
+          <div class="subtitle">
+            <div>{{ item.role }}</div>
+            <div>{{ item.date }}</div>
+          </div>
+        </h3>
+        <hr>
+      </div>
+    </div>
+
     <div id="pubs">
       <h2>Selected Publications</h2>
       <div class="project" v-for="pub in data.publications">
@@ -103,15 +118,20 @@ onMounted(() => {
         <div class="contents">
           <div v-html="pub.authors"></div>
           <h4>{{ pub.venue }}</h4>
-          <div class="link">
-            [<a @click="pub.show_abstract = !pub.show_abstract">
-              {{ pub.show_abstract ? 'Hide' : 'Show' }} abstract
-            </a>]
-          </div>
           <div class="link" v-for="[linkName, link] in Object.entries(pub.links)">
             [<a :href="link" target="_blank">{{ linkName }}</a>]
           </div>
-          <p v-if="pub.show_abstract" v-html="pub.abstract"></p>
+        </div>
+        <hr>
+      </div>
+    </div>
+
+    <div id="presentations">
+      <h2>Conference Presentations</h2>
+      <div class="project" v-for="pres in data.presentations">
+        <h3>{{ pres.title }}</h3>
+        <div class="contents">
+          <h4>{{ pres.venue }} ({{ pres.type }})</h4>
         </div>
         <hr>
       </div>
@@ -185,17 +205,23 @@ div#app {
 }
 
 .myname {
-  margin: 30px 0 35px 0;
+  margin: 30px 0 8px 0;
   font-family: "factoria", sans-serif;
   font-weight: 700;
   font-size: 30pt;
+}
+
+.mytitle {
+  margin-bottom: 25px;
+  font-size: 13pt;
+  color: #002D72;
 }
 
 div#profile {
   vertical-align: top;
   padding: 0 20px;
   display: inline-block;
-  max-width: calc(100% - 300px);
+  max-width: calc(100% - 230px);
 }
 
 @media (max-width: 800px) {
@@ -207,7 +233,7 @@ div#profile {
 
 img#profile-pic {
   padding: 15px 0;
-  width: 220px;
+  width: 150px;
 }
 
 /*
@@ -219,7 +245,8 @@ img#profile-pic {
 */
 
 div#projects h3 .subtitle,
-div#education h3 .subtitle {
+div#education h3 .subtitle,
+div#leadership h3 .subtitle {
   display: flex;
   justify-content: space-between;
   font-weight: normal;
@@ -232,18 +259,27 @@ div#pubs div.link {
   margin-right: 5px;
 }
 
-div#projects img,
-div#pubs img {
-  width: 100px;
+div#projects .logo {
+  display: inline-block;
+  vertical-align: top;
+  width: 60px;
+}
+
+div#projects .logo img {
+  width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
 }
 
 div#projects .contents,
 div#education .contents,
-div#pubs .contents {
+div#pubs .contents,
+div#presentations .contents {
   vertical-align: top;
   margin-left: 20px;
   display: inline-block;
-  max-width: calc(100% - 220px);
+  max-width: calc(100% - 100px);
 }
 
 div#education .contents {
@@ -253,14 +289,14 @@ div#education .contents {
 
 @media (max-width: 800px) {
 
-  div#projects img,
-  div#pubs img {
+  div#projects .logo {
     display: none;
   }
 
   div#projects .contents,
   div#education .contents,
-  div#pubs .contents {
+  div#pubs .contents,
+  div#presentations .contents {
     vertical-align: initial;
     margin-left: initial;
     display: initial;
